@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Azuama Odinaka Maximus</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="Back-to-Top">Welcome to Azuama Odinaka Maximus Profile Page</h1>
-    <a href="#about-me">About Me</a> |
-    <a href="#skills">Skills</a> |
-    <a href="#goals">Goals</a> |
-    <a href="#favourite-video">Favourite Video</a> |
-    <a href="#favourite-food">Favourite Food</a> |
-    <a href="#favourite-music">Favourite Music</a>
-    <a href="#friendship-request">Become My Friend</a>
-
-    <h1>Azuama Odinaka Maximus</h1>
-    <img src="images/me.jpg" alt="Azuama Odinaka Maximus" width="200">
+    <div class="profile-header">
+        <h1 id="Back-to-Top">Welcome to Azuama Odinaka Maximus Profile Page</h1>
+        <a href="#about-me">About Me</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#goals">Goals</a> |
+        <a href="#favourite-video">Favourite Video</a> |
+        <a href="#favourite-food">Favourite Food</a> |
+        <a href="#favourite-music">Favourite Music</a>
+        <a href="#friendship-request">Become My Friend</a>
+    </div>
+    <hr />
+    <img src="images/me.jpg" alt="Azuama Odinaka Maximus" width="25%" height="500">
     <p><strong>Name:</strong> Azuama Odinaka Maximus</p>
     <hr>
     <h2 id="about-me">About Me</h2>
@@ -45,7 +47,11 @@
     <hr>
 
     <h2 id="favourite-video">Favourite Video</h2>
-    <p>Click <a href="videos/Presentation_Video.mp4" target="_blank">here</a> to watch my favourite video</p>
+    <p>Click the video below to watch my favourite video</p>
+    <video width="50%" height="240" controls>
+        <source src="videos/Presentation_Video2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     <a href="#Back-to-Top">Back to Top</a>
     <hr>
 
@@ -74,7 +80,7 @@
             <option value="traveling">Traveling</option>
             <option value="sports">Sports</option>
         </select>
-        <a href="about.html">See More About my Hobby</a>
+        <a href="about.html">See More About My Hobby</a>
         <br><br>
 
         <label for="message">Message:</label><br>
